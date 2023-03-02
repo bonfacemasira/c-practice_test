@@ -11,5 +11,6 @@ int main(void)
 
    printf("a: %p\n", a);
    printf("&a[0]: %p\n", &a[0]);
+   printf("&a[0]: %p\n", &a[1]);
    return (0);
 }
